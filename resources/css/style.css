@@ -98,6 +98,12 @@ header img {
 
 .stories {
     display: flex;
-    align-items: column;
+    align-content: horizontal;
+    justify-content: space-between;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }

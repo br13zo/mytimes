@@ -4,6 +4,11 @@ header {
     font-weight: bold;
 }
 
+header img {
+    margin: 10px;
+    border:
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -26,19 +31,41 @@ header {
 
 .column {
     display: flex;
+    justify-content: space-between;
+    border: 5px black solid;
 }
 
 .large {
     width: 630px;
+    border: 3px black solid;
     display: flex;
+    justify-content: left;
+    flex-direction: column;
 }
 
 .medium {
     width: 300px;
     display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .small {
     width: 240px;
     display: flex;
+    justify-content: right;
+    flex-direction: column;
+    border: 1px black solid;
+}
+
+.img p {
+    margin: 1px 1px;
+}
+
+.info {
+    border: 1.5px black solid;
+}
+
+#main {
+    background: url("resources/images/img-story-main.png");
 }

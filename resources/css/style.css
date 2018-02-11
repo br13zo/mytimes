@@ -8,6 +8,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 
 #logo {
@@ -20,4 +21,24 @@ header {
 #navi {
     display: flex;
     align-items: right;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+}
+
+.large {
+    width: 630px;
+    display: flex;
+}
+
+.medium {
+    width: 300px;
+    display: flex;
+}
+
+.small {
+    width: 240px;
+    display: flex;
 }

@@ -131,7 +131,7 @@ nav span {
     color: DimGray;
 }
 
-.footer {
+footer {
     background-color: MediumAquamarine;
     margin: auto;
     font-family: Verdana;
@@ -144,6 +144,10 @@ nav span {
     height: 325px;
 }
 
+div {
+    display: block;
+}
+
 .title {
     font-family: Georgia;
     font-size: 16px;
@@ -154,8 +158,9 @@ nav span {
     padding-right: 25px;
 }
 
-div {
-    display: block;
+footer nav {
+    display: inline-block;
+    padding-left: 25px;
 }
 
 a {
@@ -167,7 +172,7 @@ nav span {
     padding: 20px 10px;
 }
 
-footer nav {
+.info nav {
     display: inline-block;
     padding-left: 25px;
 }

@@ -5,12 +5,19 @@ header {
     border-bottom: 1px solid black;
     display: flex;
     position: fixed;
+    justify-content: space-between;
     z-index: 1;
     background-color: white;
+    width: 100%;
 }
 
 header img {
     margin: 10px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
 }
 
 .container {
@@ -45,7 +52,15 @@ nav span {
     display: flex;
     flex-direction: column;
     margin-right: 32px;
-    border: 1px solid black;
+    border: 1px black;
+    margin-top: 100px;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
 .column.large {
@@ -63,6 +78,7 @@ nav span {
     width: 240px;
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
 }
 
 .img {
@@ -75,6 +91,8 @@ nav span {
     font-weight: bold;
     font-size: 30px;
     color: white;
+    justify-items: center;
+    align-content: center;
 }
 
 .info {
@@ -173,7 +191,7 @@ a {
     color: black;
 }
 
-.footer links {
+.footerlinks a {
     display: inline-block;
     padding: 20px 10px;
 }
